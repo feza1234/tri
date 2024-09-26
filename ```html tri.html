@@ -1,0 +1,67 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Simple CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        #main {
+            max-width: 800px;
+            margin: auto;
+            background: pink;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        #image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+        #img-div {
+            text-align: center;
+        }
+        #img-caption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="title">RASHID KHAN</h1>
+    </header>
+    <main id="main">
+        <div id="img-div">
+            <img id="image" src="data:image/jpeg;base64,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" alt="captian of Afghanistan team">
+            <div id="img-caption">Captan of Afghanistan team</div>
+        
+       </img>
+
+        <div id="tribute-info">Tribute info
+            <a id="tribute-link" href="https://google.com.uk" target="_blank"></a>
+            </dive>
+            <h2>Rashid khan
+            </h2>
+            <p>Rashid Khan has been Afghanistan's first global superstar, and the key to their successes in their early years in international cricket. His extraordinarily effective legspin has made him one of the greatest T20 bowlers ever, among the first names on wishlists of teams in leagues all around the world.</p>
+            
+            <h2>Early Life</h2>
+            <p>Hārūn al-Rashīd (born February 766/March 763, Rayy, Iran—died March 24, 809, Ṭūs) was the fifth caliph of the ʿAbbāsid dynasty (786–809), who ruled Islam at the zenith of its empire with a luxury in Baghdad memorialized in The Thousand and One Nights (The Arabian Nights Entertainment).Shahrivar 9, 1403 AP</p>
+            
+            <h2>Career</ 
